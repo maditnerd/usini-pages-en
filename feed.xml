@@ -3,7 +3,7 @@
     <title>Usini (en)</title>
     <link href="https://en.usini.eu/feed.xml" rel="self" />
     <link href="https://en.usini.eu" />
-    <updated>2019-06-01T02:26:06+02:00</updated>
+    <updated>2019-06-01T02:36:31+02:00</updated>
     <author>
         <name>Rémi Sarrailh</name>
     </author>
@@ -14,8 +14,8 @@
         <author>
             <name>Rémi Sarrailh</name>
         </author>
-        <link href="https://en.usini.eu/capteur-de-couleur-tcs34725/"/>
-        <id>https://en.usini.eu/capteur-de-couleur-tcs34725/</id>
+        <link href="https://en.usini.eu/color_sensor_tcs34725/"/>
+        <id>https://en.usini.eu/color_sensor_tcs34725/</id>
 
         <updated>2019-06-01T02:14:22+02:00</updated>
             <summary>
@@ -46,8 +46,8 @@
         <author>
             <name>Rémi Sarrailh</name>
         </author>
-        <link href="https://en.usini.eu/controleur-alternatif-fanthome/"/>
-        <id>https://en.usini.eu/controleur-alternatif-fanthome/</id>
+        <link href="https://en.usini.eu/alternative_controller_fanthome/"/>
+        <id>https://en.usini.eu/alternative_controller_fanthome/</id>
 
         <updated>2019-06-01T02:14:57+02:00</updated>
             <summary>
@@ -74,8 +74,8 @@
         <author>
             <name>Rémi Sarrailh</name>
         </author>
-        <link href="https://en.usini.eu/capteur-meteo-mqtt-sur-esp32/"/>
-        <id>https://en.usini.eu/capteur-meteo-mqtt-sur-esp32/</id>
+        <link href="https://en.usini.eu/esp32_mqtt_weather_sensor/"/>
+        <id>https://en.usini.eu/esp32_mqtt_weather_sensor/</id>
 
         <updated>2019-06-01T02:15:25+02:00</updated>
             <summary>
@@ -110,8 +110,8 @@
         <author>
             <name>Rémi Sarrailh</name>
         </author>
-        <link href="https://en.usini.eu/creer-une-manette-xbox360-a-base-darduino/"/>
-        <id>https://en.usini.eu/creer-une-manette-xbox360-a-base-darduino/</id>
+        <link href="https://en.usini.eu/create_a_xbox360_gamepad_with_an_arduino/"/>
+        <id>https://en.usini.eu/create_a_xbox360_gamepad_with_an_arduino/</id>
 
         <updated>2019-06-01T02:15:33+02:00</updated>
             <summary>
@@ -135,8 +135,8 @@
         <author>
             <name>Rémi Sarrailh</name>
         </author>
-        <link href="https://en.usini.eu/une-batterie-tr-909-a-base-desp8266/"/>
-        <id>https://en.usini.eu/une-batterie-tr-909-a-base-desp8266/</id>
+        <link href="https://en.usini.eu/tr909_drums_using_an_esp8266/"/>
+        <id>https://en.usini.eu/tr909_drums_using_an_esp8266/</id>
 
         <updated>2019-06-01T02:17:08+02:00</updated>
             <summary>
@@ -198,8 +198,8 @@
         <author>
             <name>Rémi Sarrailh</name>
         </author>
-        <link href="https://en.usini.eu/micro-numerique-pour-esp32/"/>
-        <id>https://en.usini.eu/micro-numerique-pour-esp32/</id>
+        <link href="https://en.usini.eu/digital_microphone_on_esp32/"/>
+        <id>https://en.usini.eu/digital_microphone_on_esp32/</id>
 
         <updated>2019-06-01T02:17:31+02:00</updated>
             <summary>
@@ -237,8 +237,8 @@
         <author>
             <name>Rémi Sarrailh</name>
         </author>
-        <link href="https://en.usini.eu/camera-a-base-desp32/"/>
-        <id>https://en.usini.eu/camera-a-base-desp32/</id>
+        <link href="https://en.usini.eu/timelapse_with_an_esp32_cam/"/>
+        <id>https://en.usini.eu/timelapse_with_an_esp32_cam/</id>
 
         <updated>2019-06-01T02:19:52+02:00</updated>
             <summary>
@@ -333,8 +333,8 @@
         <author>
             <name>Rémi Sarrailh</name>
         </author>
-        <link href="https://en.usini.eu/brancher-des-peripheriques-usb-sur-un-esp8266/"/>
-        <id>https://en.usini.eu/brancher-des-peripheriques-usb-sur-un-esp8266/</id>
+        <link href="https://en.usini.eu/plug_any_usb_device_on_an_esp8266/"/>
+        <id>https://en.usini.eu/plug_any_usb_device_on_an_esp8266/</id>
 
         <updated>2019-06-01T02:19:58+02:00</updated>
             <summary></summary>
@@ -352,8 +352,8 @@ window.location="https://www.hackster.io/139994/plug-any-usb-device-on-an-esp826
         <author>
             <name>Rémi Sarrailh</name>
         </author>
-        <link href="https://en.usini.eu/mini-ecran-connecte/"/>
-        <id>https://en.usini.eu/mini-ecran-connecte/</id>
+        <link href="https://en.usini.eu/mini_connected_display/"/>
+        <id>https://en.usini.eu/mini_connected_display/</id>
 
         <updated>2019-06-01T01:56:33+02:00</updated>
             <summary></summary>
@@ -371,8 +371,8 @@ window.location="https://www.hackster.io/labsud/mini-connected-display-77c5eb"
         <author>
             <name>Rémi Sarrailh</name>
         </author>
-        <link href="https://en.usini.eu/afficher-une-image-sur-un-ecran-st7789/"/>
-        <id>https://en.usini.eu/afficher-une-image-sur-un-ecran-st7789/</id>
+        <link href="https://en.usini.eu/display_images_on_a_st7789_screen/"/>
+        <id>https://en.usini.eu/display_images_on_a_st7789_screen/</id>
 
         <updated>2019-06-01T01:56:14+02:00</updated>
             <summary></summary>
