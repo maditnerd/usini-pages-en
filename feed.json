@@ -1,0 +1,161 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Usini (en)",
+    "description": "",
+    "home_page_url": "https://en.usini.eu",
+    "feed_url": "https://en.usini.eu/feed.json",
+    "user_comment": "",
+    "icon": "https://en.usini.eu/media/website/logo_final.png",
+    "author": {
+        "name": "Rémi Sarrailh"
+    },
+    "items": [
+        {
+            "id": "https://en.usini.eu/capteur-de-couleur-tcs34725/",
+            "url": "https://en.usini.eu/capteur-de-couleur-tcs34725/",
+            "title": "Color sensor (TCS34725)",
+            "summary": "I have a sensor which detect color who was laying around, but&hellip;",
+            "content_html": "<p>I have a sensor which detect color who was laying around, but it wasn't really great ( <a href=\"https://www.aliexpress.com/item/1pcs-Color-sensor-TCS230-TCS3200-Color-Recognition-Sensor-Detector-Module-DC-3-5V-Input/32953451358.html\">TCS3200</a>)</p>\n<p> <img class=\"post__image--center\" src=\"https://en.usini.eu/media/posts/17/colorsensortcs20000.png\" alt=\"\" width=\"263\" height=\"236\"></p>\n<p>So I bought a better version: The <a href=\"https://www.aliexpress.com/item/1PCS-CJMCU-34725-TCS34725-Color-Sensor-RGB-color-sensor-development-board-module/32832224010.html\">TCS34725</a>.<br>This sensors use I2C.</p>\n<p><img class=\"post__image--center\" src=\"https://en.usini.eu/media/posts/17/colorsensortcs34725.png\" alt=\"\" width=\"214\" height=\"284\"></p>\n<p> </p>\n<div class=\"align-center\">\n<blockquote class=\"twitter-tweet\" >\n<p dir=\"ltr\" lang=\"en\">Change led colors using a color sensor !<br>This is an <a href=\"https://twitter.com/arduino?ref_src=twsrc%5Etfw\">@Arduino</a> nano with TCS34725 color sensor and neopixels ring.<br><br>You can buy these on <a href=\"https://twitter.com/adafruit?ref_src=twsrc%5Etfw\">@Adafruit</a> which is always a great source for projects / ideas 😍 <a href=\"https://t.co/MYQgJEPJV2\">pic.twitter.com/MYQgJEPJV2</a></p>\n— Rémi Sarrailh (@m4dnerd) <a href=\"https://twitter.com/m4dnerd/status/1103424844723560449?ref_src=twsrc%5Etfw\">6 mars 2019</a></blockquote>\n<script async=\"\" src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n</div>",
+            "image": "https://en.usini.eu/media/posts/17/colorsensor.jpg",
+            "author": {
+                "name": "Rémi Sarrailh"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-05-31T18:52:07+02:00",
+            "date_modified": "2019-06-01T02:14:22+02:00"
+        },
+        {
+            "id": "https://en.usini.eu/controleur-alternatif-fanthome/",
+            "url": "https://en.usini.eu/controleur-alternatif-fanthome/",
+            "title": "Alternative Controller (Fanthome)",
+            "summary": "During the Global Game Jam, we made an alternative controller in order&hellip;",
+            "content_html": "<p>During the Global Game Jam, we made an alternative controller in order to make something which was between a toy and a video game.</p>\n<p>We had the opportunity to show case it at the <a href=\"https://www.gazettecafe.com/\">gazette café</a>, on Monday 4th February 2019.<br>Here is the video demonstration:</p>\n<figure class=\"post__video\"><iframe width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/ZBx6jxl1Sbk\" allowfullscreen=\"allowfullscreen\" ></iframe></figure>\n<p>And here is the source code : <a title=\"https://github.com/maditnerd/fanthome_controller/\" class=\"anchor-3Z-8Bb anchorUnderlineOnHover-2ESHQB\" href=\"https://github.com/maditnerd/fanthome_controller/\" rel=\"noopener noreferrer\" target=\"_blank\" role=\"button\" tabindex=\"0\">https://github.com/maditnerd/fanthome_controller/</a></p>\n<p>I discover, you can use an Arduino Micro <strong>as a gamepad and a serial device at the same time.</strong></p>\n<p>You can manage the inputs with the gamepad, while keeping the possibilities to manage output with serial (for LCD displays / leds ...).</p>\n<p>The first version used this library : <a title=\"https://github.com/relativty/wrmhl\" class=\"anchor-3Z-8Bb anchorUnderlineOnHover-2ESHQB\" href=\"https://github.com/relativty/wrmhl\" rel=\"noopener noreferrer\" target=\"_blank\" role=\"button\" tabindex=\"0\">https://github.com/relativty/wrmhl</a> <br><br>There is also a plugin to use mqtt in unity, which can be an interesting way to make a 3D interface for home automation (no really useful but could make a pretty neat demo!) </p>",
+            "image": "https://en.usini.eu/media/posts/16/fanthome.jpg",
+            "author": {
+                "name": "Rémi Sarrailh"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-05-31T18:41:55+02:00",
+            "date_modified": "2019-06-01T02:14:57+02:00"
+        },
+        {
+            "id": "https://en.usini.eu/capteur-meteo-mqtt-sur-esp32/",
+            "url": "https://en.usini.eu/capteur-meteo-mqtt-sur-esp32/",
+            "title": "ESP32 MQTT Weather Sensor",
+            "summary": "I'm making a sensor based on an esp32 (the project is in&hellip;",
+            "content_html": "<p>I'm making a sensor based on an esp32 (the project is in standby for now...)</p>\n<ul>\n<li>Temperature</li>\n<li>Humidity</li>\n<li>Air Pressure</li>\n<li>Light level</li>\n<li>Presence</li>\n<li>With a OLED display</li>\n<li>On battery.</li>\n</ul>\n<p>When you are near the sensor, the display show the data.<br>The Wemos Lolin Lite is not really good for this project as it <strong>use 800ua</strong> in sleep mode.</p>\n<p>Data are sent to an SSL MQTT server (Adafruit IO) with certificate verification.<br>I also had fun sending data on a <a href=\"#INTERNAL_LINK#/post/5\">private discord server</a>.</p>\n<p>If you want to learn how to use MQTT, you should try<a href=\"adafruit.io\"> adafruit io</a>. <br>You don't have to manage the server, and you get a shareable dashboard.<br><a href=\"../../../../../media/files/weatherstation.zip\" title=\"Lien direct vers le code\">/media/files/weatherstation.zip</a></p>\n<p>I showed it at Arduino Days, here is the flier, in french sorry :-)</p>\n<p><img class=\"post__image--center align-center\" src=\"https://en.usini.eu/media/posts/15/weather_station.jpg\" alt=\"\" width=\"793\" height=\"1008\"></p>",
+            "image": "https://en.usini.eu/media/posts/15/esp32mqtt.jpg",
+            "author": {
+                "name": "Rémi Sarrailh"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-05-31T16:07:52+02:00",
+            "date_modified": "2019-06-01T02:15:25+02:00"
+        },
+        {
+            "id": "https://en.usini.eu/creer-une-manette-xbox360-a-base-darduino/",
+            "url": "https://en.usini.eu/creer-une-manette-xbox360-a-base-darduino/",
+            "title": "Create a XBOX360 gamepad with an arduino",
+            "summary": "I thought it wasn't possible to emulate a XBOX360 gamepad, turns out&hellip;",
+            "content_html": "<p>I thought it wasn't possible to emulate a XBOX360 gamepad, turns out it is possible!</p>\n<p><a title=\"https://www.partsnotincluded.com/programming/arduino-xinput-library/\" class=\"anchor-3Z-8Bb anchorUnderlineOnHover-2ESHQB\" href=\"https://www.partsnotincluded.com/programming/arduino-xinput-library/\" rel=\"noopener noreferrer\" target=\"_blank\" role=\"button\" tabindex=\"0\">https://www.partsnotincluded.com/programming/arduino-xinput-library/</a> <a title=\"https://github.com/dmadison/ArduinoXInput\" class=\"anchor-3Z-8Bb anchorUnderlineOnHover-2ESHQB\" href=\"https://github.com/dmadison/ArduinoXInput\" rel=\"noopener noreferrer\" target=\"_blank\" role=\"button\" tabindex=\"0\">https://github.com/dmadison/ArduinoXInput</a></p>\n<p>Most of the time, Arduino library emulate <strong>DirectInput Gamepad, but most games won't work with it, </strong>as Microsoft forced the XINPUT standard to sell more gamepad on PC.</p>\n<p> </p>",
+            "image": "https://en.usini.eu/media/posts/14/xbox360.jpg",
+            "author": {
+                "name": "Rémi Sarrailh"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-05-31T15:57:01+02:00",
+            "date_modified": "2019-06-01T02:15:33+02:00"
+        },
+        {
+            "id": "https://en.usini.eu/une-batterie-tr-909-a-base-desp8266/",
+            "url": "https://en.usini.eu/une-batterie-tr-909-a-base-desp8266/",
+            "title": "TR-909 Drums using an esp8266",
+            "summary": "With Mozzi you can play recorded samples inside a sketch, but you can&hellip;",
+            "content_html": "<p>With <a href=\"https://sensorium.github.io/Mozzi/\">Mozzi </a>you can play recorded samples inside a sketch, <strong>but you can only store 90kb of data.</strong> (data are stored in variables (90kb) not the flash memory used by the sketchs (1mb) )<br><br>I read a tutorial which allow to do this, with the I2S interface. <br><a title=\"http://blog.dspsynth.eu/\" class=\"anchor-3Z-8Bb anchorUnderlineOnHover-2ESHQB\" href=\"http://blog.dspsynth.eu/\" rel=\"noopener noreferrer\" target=\"_blank\" role=\"button\" tabindex=\"0\">http://blog.dspsynth.eu/</a></p>\n<p>The provided example transform your ESP8266 as a drum sound generator with TR-99 roland samples.</p>\n<p>Code here : <a title=\"http://www.dspsynth.eu/files/code/rtpMIDI909.ino\" class=\"anchor-3Z-8Bb anchorUnderlineOnHover-2ESHQB\" href=\"http://www.dspsynth.eu/files/code/rtpMIDI909.ino\" rel=\"noopener noreferrer\" target=\"_blank\" role=\"button\" tabindex=\"0\">http://www.dspsynth.eu/files/code/rtpMIDI909.ino</a></p>\n<div class=\"messageCozy-2JPAPA message-1PNnaP\">\n<div class=\"contentCozy-3XX413 content-3dzVd8\">\n<div class=\"containerCozy-336-Cz container-206Blv\"> </div>\n<div class=\"containerCozy-B4noqO container-1e22Ot\"> </div>\n</div>\n</div>\n<div class=\"messageCozy-2JPAPA message-1PNnaP\">\n<div class=\"contentCozy-3XX413 content-3dzVd8\">\n<div class=\"containerCozy-336-Cz container-206Blv\">\n<div class=\"buttonContainer-KtQ8wc\">You can get more info on I2S - on Page 14 of the ESP8266 official documentation<br><a title=\"https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf\" class=\"anchor-3Z-8Bb anchorUnderlineOnHover-2ESHQB\" href=\"https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf\" rel=\"noopener noreferrer\" target=\"_blank\" role=\"button\" tabindex=\"0\">https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf</a></div>\n<div class=\"buttonContainer-KtQ8wc\"> </div>\n<div class=\"buttonContainer-KtQ8wc\"><code>ESP8266EX has one I2S data input interface and one I2S data output interface, and supports the linked list DMA. I2S interfaces are mainly used in applications such as data collection, processing, and transmission of audio data, as well as the input and output of serial data. For example, LED lights (WS2812 series) are supported.</code></div>\n<div class=\"buttonContainer-KtQ8wc\"> </div>\n<div class=\"buttonContainer-KtQ8wc\">When you plug a audio jack on ESP8266 (on RX), the sound will be noisy, you need a low pass filter.<br><img class=\"post__image--center\" src=\"https://en.usini.eu/media/posts/13/pdm-lpf.png\" alt=\"\" width=\"520\" height=\"185\"></div>\n<div class=\"buttonContainer-KtQ8wc\">The code was meant to be used with Apple Midi (rtp-midi) which allow to use midi controller thought Wi-Fi).<br>On Windows, you need LoopMidi and rtp midi to make it work:</div>\n<div class=\"buttonContainer-KtQ8wc\"><a title=\"https://www.tobias-erichsen.de/software/rtpmidi.html\" class=\"anchor-3Z-8Bb anchorUnderlineOnHover-2ESHQB\" href=\"https://www.tobias-erichsen.de/software/rtpmidi.html\" rel=\"noopener noreferrer\" target=\"_blank\" role=\"button\" tabindex=\"0\">https://www.tobias-erichsen.de/software/rtpmidi.html</a></div>\n<div class=\"buttonContainer-KtQ8wc\"> </div>\n<div class=\"buttonContainer-KtQ8wc\">rtp-midi should be able to automatically detect midi controller, but i had to manually enter the IP of my esp to make it works (in DIRECTORY IP:5004)</div>\n<div class=\"buttonContainer-KtQ8wc\"><img class=\"post__image--center\" src=\"https://en.usini.eu/media/posts/13/rtpmidi.png\" width=\"621\" height=\"413\"></div>\n<div class=\"buttonContainer-KtQ8wc\">After this, you can use it with any music production software, I used LMMS as it is free (as freedom) :-)</div>\n<div class=\"buttonContainer-KtQ8wc\"><img class=\"post__image--center\" src=\"https://en.usini.eu/media/posts/13/lmms.png\" alt=\"\" width=\"277\" height=\"477\"></div>\n<div class=\"buttonContainer-KtQ8wc\">You have to </div>\n<ul>\n<li class=\"buttonContainer-KtQ8wc\">Create a track with any instrument</li>\n<li class=\"buttonContainer-KtQ8wc\">Mute the instrument</li>\n<li class=\"buttonContainer-KtQ8wc\">Click on the piano icon</li>\n<li class=\"buttonContainer-KtQ8wc\">Enable Midi output, Canal 10</li>\n<li class=\"buttonContainer-KtQ8wc\">Choose the midi port (it has the name of your computer)</li>\n</ul>\n<div class=\"buttonContainer-KtQ8wc\"> </div>\n<div class=\"buttonContainer-KtQ8wc\">I still have a static sound, no idea where it came from, but the sound is not bad.</div>\n<div class=\"buttonContainer-KtQ8wc\"><audio controls=\"controls\"><source src=\"/media/files/tr909.mp3\" type=\"audio/mp3\" /><source src=\"/media/files/tr909.ogg\" type=\"audio/ogg\" /></audio>  </div>\n<div class=\"buttonContainer-KtQ8wc\"> </div>\n<div class=\"buttonContainer-KtQ8wc\">Funny thing, since it used the I2S output which is on RX pin, during upload we can hear the sketch being upload.</div>\n<div class=\"buttonContainer-KtQ8wc\"><audio controls=\"controls\"><source src=\"/media/files/upload.mp3\" type=\"audio/mp3\" /><source src=\"/media/files/upload.ogg\" type=\"audio/ogg\" /></audio>  </div>\n<div class=\"buttonContainer-KtQ8wc\"> </div>\n</div>\n</div>\n</div>",
+            "image": "https://en.usini.eu/media/posts/13/tr909.jpg",
+            "author": {
+                "name": "Rémi Sarrailh"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-05-31T15:31:14+02:00",
+            "date_modified": "2019-06-01T02:17:08+02:00"
+        },
+        {
+            "id": "https://en.usini.eu/micro-numerique-pour-esp32/",
+            "url": "https://en.usini.eu/micro-numerique-pour-esp32/",
+            "title": "Digital Microphone on ESP32",
+            "summary": "I bought a digital mic (I2S) but I didn't found time to&hellip;",
+            "content_html": "<p>I bought a digital mic (I2S) but I didn't found time to test it.<br>You need an ESP (i try it on an esp32) to make it works.</p>\n<p>I had a hard time to find a working code on Arduino, so here is one.<br><a title=\"https://revspace.nl/EspAudioSensor\" class=\"anchor-3Z-8Bb anchorUnderlineOnHover-2ESHQB\" href=\"https://revspace.nl/EspAudioSensor\" rel=\"noopener noreferrer\" target=\"_blank\" role=\"button\" tabindex=\"0\">https://revspace.nl/EspAudioSensor</a> <br><a title=\"https://github.com/bertrik/NoiseLevel\" class=\"anchor-3Z-8Bb anchorUnderlineOnHover-2ESHQB\" href=\"https://github.com/bertrik/NoiseLevel\" rel=\"noopener noreferrer\" target=\"_blank\" role=\"button\" tabindex=\"0\">https://github.com/bertrik/NoiseLevel</a></p>\n<p>This example managed multiples frequency band.<br>The mic is omnidirectionnal (and the range is a lot better than basic analog mic)</p>\n<p>Here is the result on the serial monitor:</p>\n<p><img class=\"post__image--center\" src=\"https://en.usini.eu/media/posts/12/micro_audiolevel.png\" alt=\"\" width=\"705\" height=\"30\"></p>\n<p>You can also use the serial tracer to display the frequencies:</p>\n<div class=\"gallery\"   >\n<figure class=\"gallery__item\"><a href=\"https://en.usini.eu/media/posts/12/gallery/audio_3.png\" ><img src=\"https://en.usini.eu/media/posts/12/gallery/audio_3-thumbnail.png\" alt=\"Computer Keyboard\" width=\"768\" height=\"450\"></a>\n<figcaption class=\"gallery-description\">Computer Keyboard</figcaption>\n</figure>\n<figure class=\"gallery__item\"><a href=\"https://en.usini.eu/media/posts/12/gallery/audio_2.png\" ><img src=\"https://en.usini.eu/media/posts/12/gallery/audio_2-thumbnail.png\" alt=\"Voice\" width=\"768\" height=\"1242\"></a>\n<figcaption class=\"gallery-description\">Voice</figcaption>\n</figure>\n<figure class=\"gallery__item\"><a href=\"https://en.usini.eu/media/posts/12/gallery/audio_1.png\" ><img src=\"https://en.usini.eu/media/posts/12/gallery/audio_1-thumbnail.png\" alt=\"Whistling\" width=\"768\" height=\"760\"></a>\n<figcaption class=\"gallery-description\">Whistling</figcaption>\n</figure>\n</div>\n<p> </p>",
+            "image": "https://en.usini.eu/media/posts/12/micro.jpg",
+            "author": {
+                "name": "Rémi Sarrailh"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-05-31T15:21:51+02:00",
+            "date_modified": "2019-06-01T02:17:31+02:00"
+        },
+        {
+            "id": "https://en.usini.eu/camera-a-base-desp32/",
+            "url": "https://en.usini.eu/camera-a-base-desp32/",
+            "title": "Timelapse with an esp32-cam",
+            "summary": "I was intrigued by this camera which cost 9$ (with shipping cost), and Rui&hellip;",
+            "content_html": "<p>I was intrigued by this <a href=\"https://www.aliexpress.com/item/ESP32-CAM-ESP-32S-WiFi-Module-ESP32-serial-to-WiFi-ESP32-CAM-Development-Board-5V-Bluetooth/32992663411.html\">camera </a>which cost 9$ (with shipping cost), and <a href=\"https://randomnerdtutorials.com/\">Rui Santos video (Randomnerdtutorials)</a> so I decided to buy it.</p>\n<figure class=\"post__video\"><iframe width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/36p9To2hfak\" allowfullscreen=\"allowfullscreen\" ></iframe></figure>\n<div class=\"channels-Ie2l6A vertical-V37hAW flex-1O1GKY directionColumn-35P_nr\">\n<div class=\"messageCozy-2JPAPA message-1PNnaP\">\n<div class=\"contentCozy-3XX413 content-3dzVd8\">\n<div class=\"containerCozy-336-Cz container-206Blv\">\n<div class=\"markup-2BOw-j\">After testing it, i let it aside, and when I wanted to show it at my workshop at <a href=\"https://labsud.org\">LabSud</a>, it didn't works. <br><br>I discover that you need to have a good power supply to make it works.<br>If it isn't well powered, the esp32 <strong>will not start or the image will have weird lines.</strong></div>\n</div>\n<div class=\"containerCozy-B4noqO container-1e22Ot\"> </div>\n</div>\n</div>\n<div class=\"messageCozy-2JPAPA message-1PNnaP\">\n<div class=\"contentCozy-3XX413 content-3dzVd8\">\n<div class=\"containerCozy-336-Cz container-206Blv\">\n<div class=\"buttonContainer-KtQ8wc\">You can find sketchs for it directly inside the Arduino software (when you add ESP32 support)</div>\n<div class=\"buttonContainer-KtQ8wc\"><br>Here is a tutorial on how to upload a sketch on it : <a title=\"https://randomnerdtutorials.com/esp32-cam-video-streaming-face-recognition-arduino-ide/\" class=\"anchor-3Z-8Bb anchorUnderlineOnHover-2ESHQB\" href=\"https://randomnerdtutorials.com/esp32-cam-video-streaming-face-recognition-arduino-ide/\" rel=\"noopener noreferrer\" target=\"_blank\" role=\"button\" tabindex=\"0\">https://randomnerdtutorials.com/esp32-cam-video-streaming-face-recognition-arduino-ide/</a></div>\n<div class=\"markup-2BOw-j\"> </div>\n<div class=\"markup-2BOw-j\">You need</div>\n<div class=\"markup-2BOw-j\">\n<ul>\n<li class=\"markup-2BOw-j\">a FTDI programmer</li>\n<li class=\"markup-2BOw-j\">Connect IO0 with GND to put it in upload mode.</li>\n</ul>\n</div>\n<figure class=\"post__image post__image--center\" ><img src=\"https://en.usini.eu/media/posts/11/ESP32-CAM-wiring-FTDI1.png\" alt=\"Credits: RandomNerdTutorials.com\" width=\"750\" height=\"310\">\n<figcaption >Randomnerdtutorials.com</figcaption>\n</figure>\n<p><strong>Arduino Settings</strong></p>\n</div>\n<div class=\"containerCozy-336-Cz container-206Blv\">--&gt; ESP32 Wrover in Board <br>--&gt; Huge App (3MB No OTA) in Partition Scheme <br>--&gt; Open ESP32 examples --&gt; Camera --&gt; CameraWebServer</div>\n<figure class=\"post__image post__image--center\" ><img src=\"https://en.usini.eu/media/posts/11/upload-code-esp32-cam.png\" alt=\"Credits : Randomnerdtutorials.com\" width=\"369\" height=\"410\">\n<figcaption >Randomnerdtutorials.com</figcaption>\n</figure>\n<div class=\"containerCozy-336-Cz container-206Blv\">\n<div class=\"messageCozy-2JPAPA message-1PNnaP\">\n<div class=\"contentCozy-3XX413 content-3dzVd8\">\n<div class=\"containerCozy-336-Cz container-206Blv\">\n<div class=\"markup-2BOw-j\">I had a lot of failed upload, probably due to a bad power supply.<br>A computer USB probably doesn't deliver not enough to power it, but if you retry enough it should works (Obviously it should work better if you use an external power supply) </div>\n<div class=\"markup-2BOw-j\"> </div>\n</div>\n<div class=\"containerCozy-B4noqO container-1e22Ot\">Here is how the interface looks like, you should even be able to use face recognition, but I didn't manage to make it works.</div>\n</div>\n</div>\n<div class=\"messageCozy-2JPAPA message-1PNnaP\">\n<div class=\"contentCozy-3XX413 content-3dzVd8\">\n<div class=\"containerCozy-336-Cz container-206Blv\">\n<figure class=\"post__image post__image\" ><img src=\"https://en.usini.eu/media/posts/11/ESP32-CAM-video-streaming-example.jpg\" alt=\"\" width=\"750\" height=\"407\">\n<figcaption >Randomnerdtutorials.com</figcaption>\n</figure>\n<div class=\"markup-2BOw-j\">My goal was to make timelapse, so I needed to find a way to correctly power my esp32cam.</div>\n<div class=\"markup-2BOw-j\"> </div>\n<div class=\"markup-2BOw-j\">First I used my <strong>FTDI programmer, but it overheat, bad idea!</strong><br>Looking around, I found Lipo charger module (<a href=\"https://www.aliexpress.com/item/5-pcs-Micro-USB-5V-1A-18650-TP4056-Lithium-Battery-Charger-Module-Charging-Board-With-Protection/32797834680.html\"></a><a href=\"https://fr.aliexpress.com/item/32489232521.html\" target=\"_blank\" rel=\"noopener noreferrer\">TP4056)</a>.</div>\n<div class=\"markup-2BOw-j\"><img class=\"post__image--center\" src=\"https://en.usini.eu/media/posts/11/tp4056.png\" alt=\"\" width=\"243\" height=\"232\"></div>\n<div class=\"markup-2BOw-j\">Near the micro USB, there are a + / - which supply 5v, the ESP32-cam can takes 5v (which is convert to 3.3v)</div>\n<div class=\"markup-2BOw-j\">Unfortunately , I forgot to <strong>change the VCC cable from 3.3v to 5v.<br>Thankfully, it didn't damage my board.</strong></div>\n<div class=\"markup-2BOw-j\"> </div>\n<div class=\"markup-2BOw-j\">Since I won't use a Lipo battery, I will change it with an <a href=\"https://www.aliexpress.com/item/10pcs-MICRO-USB-To-DIP-Adapter-5pin-Female-Connector-B-Type-PCB-Converter-Breadboard-USB-01/32867946438.html\">USB module</a></div>\n<div class=\"markup-2BOw-j\"><img class=\"post__image--center\" src=\"https://en.usini.eu/media/posts/11/alimusb.png\" width=\"217\" height=\"193\"></div>\n<div class=\"markup-2BOw-j\">In order to get the images and save it on my google Drive, I used my media center Raspberry Pi which have <a href=\"https://github.com/ccrisan/motioneye/wiki\">motionEye.</a></div>\n<div class=\"markup-2BOw-j\"> </div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"containerCozy-B4noqO container-1e22Ot\">I added the ESP32 cam stream (http://192.168.x.x:81/stream) on it.</div>\n<div class=\"containerCozy-B4noqO container-1e22Ot\"><img class=\"post__image--center\" src=\"https://en.usini.eu/media/posts/11/motioneye.png\" alt=\"\" width=\"665\" height=\"461\"></div>\n<div class=\"containerCozy-B4noqO container-1e22Ot\"><img class=\"post__image--center\" src=\"https://en.usini.eu/media/posts/11/motioneye2.png\" alt=\"\" width=\"652\" height=\"270\"></div>\n<div class=\"containerCozy-B4noqO container-1e22Ot\"><img class=\"post__image--center\" src=\"https://en.usini.eu/media/posts/11/drive_motion.png\" alt=\"\" width=\"438\" height=\"192\"></div>\n<div class=\"containerCozy-B4noqO container-1e22Ot\"><img class=\"post__image--center\" src=\"https://en.usini.eu/media/posts/11/20-20-15.jpg\" alt=\"\" width=\"622\" height=\"262\"></div>\n<div class=\"containerCozy-B4noqO container-1e22Ot\"> </div>\n<div class=\"containerCozy-B4noqO container-1e22Ot\"> </div>\n</div>\n</div>\n</div>\n<div class=\"chat-3bRxxu firefoxFixScrollFlex-cnI2ix\"> </div>",
+            "image": "https://en.usini.eu/media/posts/11/esp32cam.jpg",
+            "author": {
+                "name": "Rémi Sarrailh"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-05-31T14:12:06+02:00",
+            "date_modified": "2019-06-01T02:19:52+02:00"
+        },
+        {
+            "id": "https://en.usini.eu/brancher-des-peripheriques-usb-sur-un-esp8266/",
+            "url": "https://en.usini.eu/brancher-des-peripheriques-usb-sur-un-esp8266/",
+            "title": "Plug Any USB Device on an ESP8266",
+            "content_html": "<script>// <![CDATA[\nwindow.location=\"https://www.hackster.io/139994/plug-any-usb-device-on-an-esp8266-e0ca8a\"\n// ]]></script>",
+            "image": "https://en.usini.eu/media/posts/10/USBHOSTMINI_hack.jpg",
+            "author": {
+                "name": "Rémi Sarrailh"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-05-31T13:36:58+02:00",
+            "date_modified": "2019-06-01T02:19:58+02:00"
+        },
+        {
+            "id": "https://en.usini.eu/mini-ecran-connecte/",
+            "url": "https://en.usini.eu/mini-ecran-connecte/",
+            "title": "Mini Connected Display",
+            "content_html": "<script>// <![CDATA[\nwindow.location=\"https://www.hackster.io/labsud/mini-connected-display-77c5eb\"\n// ]]></script>",
+            "image": "https://en.usini.eu/media/posts/9/tft_iftt_hack.jpg",
+            "author": {
+                "name": "Rémi Sarrailh"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-05-31T13:36:48+02:00",
+            "date_modified": "2019-06-01T01:56:33+02:00"
+        },
+        {
+            "id": "https://en.usini.eu/afficher-une-image-sur-un-ecran-st7789/",
+            "url": "https://en.usini.eu/afficher-une-image-sur-un-ecran-st7789/",
+            "title": "Display images on a ST7789 screen",
+            "content_html": "<script>// <![CDATA[\nwindow.location=\"https://www.hackster.io/148468/display-images-on-a-st7789-screen-fbb0d7\"\n// ]]></script>",
+            "image": "https://en.usini.eu/media/posts/8/stt7789_hack.jpg",
+            "author": {
+                "name": "Rémi Sarrailh"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-05-31T13:36:40+02:00",
+            "date_modified": "2019-06-01T01:56:14+02:00"
+        }
+    ]
+}
