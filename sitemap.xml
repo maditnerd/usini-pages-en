@@ -6,7 +6,7 @@
 </url>
 <url>
 <loc>https://en.usini.eu/alternative_controller_fanthome/</loc>
-<lastmod>2019-06-01T02:14:57+02:00</lastmod>
+<lastmod>2019-06-03T13:47:59+02:00</lastmod>
 <image:image>
 <image:loc>https://en.usini.eu/media\posts\16/fanthome.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -14,7 +14,7 @@
 </url>
 <url>
 <loc>https://en.usini.eu/color_sensor_tcs34725/</loc>
-<lastmod>2019-06-01T02:14:22+02:00</lastmod>
+<lastmod>2019-06-03T13:46:46+02:00</lastmod>
 <image:image>
 <image:loc>https://en.usini.eu/media\posts\17/colorsensor.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -38,7 +38,7 @@
 </url>
 <url>
 <loc>https://en.usini.eu/create_a_xbox360_gamepad_with_an_arduino/</loc>
-<lastmod>2019-06-01T02:15:33+02:00</lastmod>
+<lastmod>2019-06-03T13:49:14+02:00</lastmod>
 <image:image>
 <image:loc>https://en.usini.eu/media\posts\14/xbox360.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -46,7 +46,7 @@
 </url>
 <url>
 <loc>https://en.usini.eu/digital_microphone_on_esp32/</loc>
-<lastmod>2019-06-01T02:17:31+02:00</lastmod>
+<lastmod>2019-06-03T13:50:55+02:00</lastmod>
 <image:image>
 <image:loc>https://en.usini.eu/media\posts\12/micro.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -78,7 +78,7 @@
 </url>
 <url>
 <loc>https://en.usini.eu/esp32_mqtt_weather_sensor/</loc>
-<lastmod>2019-06-01T02:15:25+02:00</lastmod>
+<lastmod>2019-06-03T13:48:56+02:00</lastmod>
 <image:image>
 <image:loc>https://en.usini.eu/media\posts\15/esp32mqtt.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -121,6 +121,18 @@
 </image:image>
 </url>
 <url>
+<loc>https://en.usini.eu/send-a-calendar-on-discord-using-node-red/</loc>
+<lastmod>2019-06-03T13:00:49+02:00</lastmod>
+<image:image>
+<image:loc>https://en.usini.eu/media\posts\18/discord_ical.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://en.usini.eu/media\posts\18/node-red-ical-discord_en.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://en.usini.eu/send_a_message_on_discord/</loc>
 <lastmod>2019-06-01T01:37:21+02:00</lastmod>
 <image:image>
@@ -130,7 +142,7 @@
 </url>
 <url>
 <loc>https://en.usini.eu/timelapse_with_an_esp32_cam/</loc>
-<lastmod>2019-06-01T02:19:52+02:00</lastmod>
+<lastmod>2019-06-03T13:51:39+02:00</lastmod>
 <image:image>
 <image:loc>https://en.usini.eu/media\posts\11/esp32cam.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -174,7 +186,7 @@
 </url>
 <url>
 <loc>https://en.usini.eu/tr909_drums_using_an_esp8266/</loc>
-<lastmod>2019-06-01T02:17:08+02:00</lastmod>
+<lastmod>2019-06-03T13:49:56+02:00</lastmod>
 <image:image>
 <image:loc>https://en.usini.eu/media\posts\13/tr909.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
